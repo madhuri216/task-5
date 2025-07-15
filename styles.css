@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+ background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.5s ease;
+
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #5f27cd;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0 30px;
+  color: #576574;
+}
+
+.btn, button {
+  padding: 12px 30px;
+  background-color: #54a0ff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover, button:hover {
+  background-color: #2e86de;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+input, select, textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.entry-card {
+  background: #fff;
+  border: 2px solid #f1f2f6;
+  border-left: 8px solid #54a0ff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.entry-card h2 {
+  margin: 0 0 10px;
+  color: #222f3e;
+}
+
+.entry-card p {
+  margin: 5px 0;
+  color: #333;
+}
+
+a {
+  color: #10ac84;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*  Delete Button Styling */
+.delete-btn {
+  margin-top: 10px;
+  background-color: #ee5253;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
